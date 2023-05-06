@@ -29,7 +29,6 @@ public:
     }
 
 private:
-
     std::optional<T> result;
     std::mutex mutex;
     std::condition_variable cv;
